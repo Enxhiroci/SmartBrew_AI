@@ -1,0 +1,20 @@
+# Local databases and secrets
+*.db
+*.db-shm
+*.db-wal
+.env
+# Python build caches
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+# Optional local demo screenshots
+screenshots/

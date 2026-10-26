@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;1,500&display=swap');
+:root{font-family:'DM Sans',Arial,sans-serif;color:#26352a;background:#f7f8f5;font-synthesis:none}*{box-sizing:border-box}body{margin:0}button,input,select{font:inherit}button{cursor:pointer}button:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #e5ad4d;outline-offset:2px}.app-shell{display:flex;min-height:100vh}.sidebar{width:258px;flex:0 0 258px;background:#132d24;color:#eaf0e8;padding:30px 20px;display:flex;flex-direction:column;position:sticky;top:0;height:100vh}.brand{display:flex;align-items:center;gap:12px;margin:0 7px 70px}.brand-mark{height:40px;width:40px;border-radius:13px;background:#d4df9e;color:#173728;display:grid;place-items:center;font-size:32px}.brand strong{font-size:22px;letter-spacing:-1px}.brand strong span{color:#c9dca2}.brand small{display:block;margin-top:3px;font-size:8px;letter-spacing:1.5px;color:#a6b6a9}.side-subhead{font-size:10px;letter-spacing:1.8px;color:#839b8e;padding:0 15px;margin-bottom:15px}.navigation{display:grid;gap:9px}.nav-btn{width:100%;border:0;background:transparent;color:#afc4b5;text-align:left;border-radius:10px;padding:15px 14px;display:flex;gap:12px;align-items:center;font-weight:600;font-size:13px}.nav-btn.active,.nav-btn:hover{background:#315441;color:#fff}.nav-btn:first-letter{font-size:18px}.sidebar-footer{margin-top:auto;border-top:1px solid #345143;padding:24px 8px 0;color:#a6b9ad;font-size:10px;letter-spacing:.6px}.sidebar-footer p{font-size:11px;line-height:1.6;letter-spacing:0}.live-dot{display:inline-block;height:8px;width:8px;border-radius:50%;background:#b4d982;margin-right:7px}.workspace{flex:1;min-width:0;max-width:1600px;padding:0 44px 72px;margin:auto}.topbar{height:91px;display:flex;align-items:center;justify-content:space-between;gap:12px}.eyebrow,.overline{font-size:10px;font-weight:700;letter-spacing:2.3px;color:#96a09a}.overline.green{color:#72917b}.top-right{display:flex;align-items:center;gap:16px}.chip{background:#e4eadb;border-radius:99px;padding:9px 14px;color:#40734c;font-size:10px;font-weight:700;letter-spacing:1px}.identity{font-size:12px;color:#6b7970}.page{display:none;max-width:1250px}.page.active{display:block}.hero{min-height:302px;background:linear-gradient(116deg,#234b36,#54735c);border-radius:18px;position:relative;overflow:hidden;color:white;display:flex;align-items:center;padding:36px 55px;margin-bottom:46px}.hero:before{content:'';position:absolute;width:410px;height:410px;border-radius:50%;border:1px solid #ffffff26;right:-23px;top:-60px;box-shadow:0 0 0 40px #ffffff06,0 0 0 85px #ffffff06}.hero-copy{z-index:1;max-width:480px}.hero .overline{color:#c9d5bb}.hero h1,.page-title h1{font-family:'Playfair Display',Georgia,serif;font-weight:500;line-height:1.12;font-size:43px;letter-spacing:-1px;margin:14px 0}.hero h1 em,.page-title h1 em{color:#d1dfa3}.hero-copy>p:last-of-type{max-width:340px;font-size:13px;color:#d2e2d7;line-height:1.8}.primary{background:#275438;color:#fff;border:0;border-radius:9px;padding:13px 20px;font-size:12px;font-weight:700;display:inline-flex;gap:28px;align-items:center;justify-content:space-between}.primary:hover{background:#36734b}.white-btn{background:#e6efd7;color:#1e402d;margin-top:10px}.white-btn:hover{background:#fff}.hero-caption{position:absolute;bottom:18px;right:28px;font-size:9px;letter-spacing:1.8px;color:#d4e0c7}.cup-illustration{position:absolute;right:11%;bottom:39px;width:205px;height:220px;transform:rotate(-7deg)}.cup-body{position:absolute;bottom:30px;left:24px;width:148px;height:110px;background:linear-gradient(145deg,#f8f7ec,#c9c7af);border-radius:10px 10px 60px 60px;box-shadow:8px 13px 12px #18372855;display:grid;place-items:center;color:#577050;font-size:39px}.cup-handle{position:absolute;bottom:55px;right:2px;width:70px;height:77px;border-radius:50%;border:17px solid #e0e1ca}.cup-saucer{position:absolute;bottom:16px;left:4px;height:15px;width:194px;border-radius:50%;background:#bbc8ad}.cup-steam{position:absolute;top:-12px;color:#e7eedd;font-size:66px;opacity:.6;transform:rotate(90deg)}.cup-steam.s1{left:30px}.cup-steam.s2{left:108px;top:2px}.section-heading{display:flex;align-items:end;justify-content:space-between;gap:18px;margin-bottom:22px}.section-heading h2,.panel h2{font-family:'Playfair Display',Georgia,serif;font-weight:500;font-size:25px;margin:4px 0}.section-heading .overline{margin:0}.muted{font-size:12px;color:#879087}.filters,.login-switch{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:23px}.filter{border:1px solid #dce4dc;border-radius:99px;padding:9px 20px;background:white;color:#69796e;font-size:12px}.filter.active{background:#28553a;border-color:#28553a;color:#fff}.drink-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:17px}.drink-card{background:#fff;border:1px solid #e7eee6;border-radius:14px;overflow:hidden;box-shadow:0 4px 14px #334b3508;display:flex;flex-direction:column}.drink-visual{height:130px;display:grid;place-items:center;background:radial-gradient(circle at 53% 45%,#f5ecdf,#e8eadf);font-size:64px}.drink-visual.tea{background:radial-gradient(circle,#e1ebd5,#e7f0dd)}.drink-visual.cold{background:radial-gradient(circle,#e3eee9,#dae6e0)}.drink-body{padding:18px;flex:1;display:flex;flex-direction:column}.drink-cat{color:#8c9a8e;text-transform:uppercase;letter-spacing:1.3px;font-size:9px;font-weight:700}.drink-name{font-family:'Playfair Display',Georgia,serif;font-size:21px;margin:7px 0}.drink-desc{color:#7a867c;line-height:1.6;font-size:11px;margin:0 0 18px;min-height:36px}.drink-footer{margin-top:auto;display:flex;justify-content:space-between;align-items:center}.price{font-size:18px;font-weight:700;color:#275039}.calories{font-size:10px;color:#879087}.small-btn{border:0;background:#eaf1e8;color:#28583b;border-radius:9px;font-weight:700;font-size:11px;padding:11px 14px}.small-btn:disabled{color:#a5a5a5;cursor:not-allowed;background:#f1f1f1}.out-of-stock{color:#ad6245;font-size:10px;font-weight:700}.panel{border:1px solid #e2e9e0;background:#fff;border-radius:14px;padding:28px;margin:18px 0}.order-panel{margin-top:32px}.section-heading.compact{align-items:center}.section-heading h3{margin:7px 0}.form-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px;margin:19px 0}label{display:flex;flex-direction:column;gap:9px;font-size:12px;color:#5b6d60;font-weight:700;margin-bottom:14px}select,input{width:100%;border:1px solid #dce5da;border-radius:9px;background:#fcfdfb;padding:13px 12px;color:#2e4431;font-size:13px;font-weight:400}.quote-details{border-left:4px solid #a9c68c;background:#f2f7ee;padding:14px 18px;margin:19px 0 28px;color:#426047;font-size:13px}.checkout-head{border-top:1px solid #e8efe6;padding-top:22px}.subtle{border:0;background:transparent;font-size:11px;color:#718174}.tracking-panel{background:#f0f7ec}.steps{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:24px 0}.step{border:1px solid #d1decc;border-radius:10px;padding:16px;color:#93a492;font-size:11px}.step span{display:block;font-size:16px;margin-top:10px}.step.done{background:#315c40;color:#fff}.tracking-actions{display:flex;align-items:center;gap:20px;flex-wrap:wrap}.page-title{padding:38px 0 15px;max-width:710px}.page-title h1{font-size:48px;color:#264d37}.page-title h1 em{color:#82a26d}.page-title>p:last-child{font-size:13px;line-height:1.8;color:#788b79}.fineprint{color:#91a093;font-size:11px;line-height:1.6}.recommend-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.recommendation{padding:22px;border:1px solid #e0e9df;border-radius:12px;background:white}.recommendation h3{font-family:'Playfair Display',Georgia,serif;font-size:22px;font-weight:500}.recommendation p{font-size:12px;color:#778578;line-height:1.6}.rank{color:#72956d;letter-spacing:1.5px;font-size:10px}.login-switch{margin-bottom:22px}.login-switch .filter{border-radius:8px}#auth-panel{max-width:580px}#account-panel .panel{max-width:820px}.outline{border:1px solid #d3ded2;border-radius:8px;background:#fff;padding:11px 16px;color:#365843;font-size:12px;font-weight:700}.outline:hover{background:#f3f8f1}.recipe-list{display:grid;gap:10px;margin-top:20px}.recipe-row,.stock-row,.fault-row,.event-row{display:flex;align-items:center;justify-content:space-between;gap:10px;border-bottom:1px solid #edf0eb;padding:13px 0;font-size:12px}.recipe-row strong,.stock-row strong{color:#365844}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}.stat{background:#eaf1e5;padding:21px;border-radius:12px}.stat b{font-size:29px;display:block;color:#27563b}.stat small{font-size:11px;color:#637967}.stock-row span{color:#6f8571}.stock-row.low{background:#fef7ee}.events{max-height:240px;overflow:auto}.event-row{font-size:11px;color:#607060}.event-row span:last-child{color:#9ca99c}.error-text{color:#b34f42}.toast{position:fixed;z-index:30;right:25px;bottom:25px;max-width:430px;border-radius:10px;background:#254936;color:#fff;box-shadow:0 14px 40px #132b2244;padding:15px 22px;font-size:13px;line-height:1.6}.toast.error{background:#993f32} [hidden]{display:none!important}@media(max-width:1150px){.sidebar{width:205px;flex-basis:205px}.workspace{padding:0 24px 55px}.drink-grid{grid-template-columns:repeat(2,1fr)}.cup-illustration{right:4%}}@media(max-width:700px){.app-shell{display:block}.sidebar{width:100%;height:auto;position:static;padding:12px 14px}.brand{margin:0 0 12px}.side-subhead,.sidebar-footer{display:none}.navigation{display:flex;overflow:auto}.nav-btn{min-width:max-content;padding:11px}.nav-btn span{font-size:11px}.workspace{padding:0 15px 40px}.topbar{height:72px}.eyebrow{font-size:8px}.top-right{gap:5px}.chip{font-size:8px;padding:7px}.identity{font-size:10px}.hero{min-height:285px;padding:23px}.hero h1{font-size:34px}.cup-illustration{opacity:.25;right:0}.hero-caption{display:none}.drink-grid,.recommend-grid{grid-template-columns:1fr}.form-grid,.stats{grid-template-columns:1fr}.page-title h1{font-size:38px}.panel{padding:20px}}
+
+.recipe-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+
+/* Full receipt panel and automatic preparation status. */
+.receipt-email-wrap{max-width:420px;margin:12px 0 20px}
+.progress-track{height:9px;background:#dbe6d7;border-radius:30px;overflow:hidden}
+.progress-fill{height:100%;width:12%;background:linear-gradient(90deg,#7cb184,#28563a);border-radius:30px;transition:width .8s ease}
+.receipt-card{max-width:650px;border:1px solid #d5e2d2;background:#fff;border-radius:13px;padding:26px 28px;margin:27px 0 18px;box-shadow:0 6px 25px #253e2910}
+.receipt-heading{display:flex;justify-content:space-between;align-items:center;border-bottom:1px dashed #cdd9cd;padding-bottom:14px;margin-bottom:15px}
+.receipt-heading h3{font-family:Georgia,serif;font-size:26px;margin:7px 0 0;color:#235039}
+.receipt-mark{color:#83a671;font-size:42px}
+.receipt-line{display:flex;justify-content:space-between;gap:20px;padding:9px 0;font-size:12px;color:#66776a}
+.receipt-line strong{font-size:12px;color:#2e4a34;font-weight:700;text-align:right;overflow-wrap:anywhere}
+.receipt-total{margin-top:12px;padding-top:18px;border-top:1px dashed #cdd9cd;color:#2b5439;font-size:18px;font-weight:700}
+.receipt-total strong{font-size:24px}
+.receipt-disclaimer{font-size:10px;color:#8b988a;line-height:1.6;margin:22px 0 0}
+
+
+/* Mock email envelope for receipt preview (no SMTP request is made). */
+.email-preview-label{padding:10px 14px;background:#e7f1e5;color:#245336;font-size:11px;font-weight:800;letter-spacing:1.2px;border-radius:8px;margin-bottom:14px}
+.email-preview-meta{padding:5px 0 14px;border-bottom:1px solid #dee8da;display:grid;gap:8px;color:#556b58;font-size:12px;overflow-wrap:anywhere}
+.email-preview-meta b{color:#274d34;margin-right:6px}
+.email-preview-greeting{font-size:12px;line-height:1.7;color:#586b5c;margin:20px 0 8px}
+
+/* Explicit PDF actions use the protected download/inline endpoint. */
+.receipt-link{display:inline-flex;align-items:center;justify-content:center;text-decoration:none;
+  border:1px solid #b4cab4;border-radius:9px;padding:12px 16px;font-size:12px;font-weight:700;
+  background:#fff;color:#285338}
+.receipt-link:hover{background:#e8f3e8}
+.repeat-order{margin-top:24px;padding:23px 0 0;border-top:1px solid #d1e1d0}
+.repeat-order .primary{font-size:14px;padding:15px 22px}
+.repeat-order p{margin:11px 0 0}
+
+/* Separate save-to-profile, checkout, and account history flows. */
+.flow-choice{border-top:1px solid #e5ede3;padding:22px 0 0}
+.flow-choice h3{font-family:Georgia,serif;color:#254c36;font-size:22px;font-weight:500}
+.flow-actions{display:flex;gap:12px;flex-wrap:wrap;margin:16px 0}
+.nested-panel{border:1px solid #cbdac9;background:#f7faf5;padding:22px;border-radius:12px;margin:18px 0}
+.nested-panel label{max-width:460px}
+#checkout-section{border-top:1px solid #e1eae0;margin-top:24px;padding-top:8px}
+.dashboard-item{border:1px solid #e2e9e0;border-radius:12px;padding:18px;margin:12px 0;display:flex;justify-content:space-between;gap:20px;align-items:center}
+.dashboard-item strong{color:#28533a;font-size:15px}
+.dashboard-item p{font-size:12px;color:#617563;margin:6px 0}
+.dashboard-item small{font-size:11px;color:#768778;line-height:1.6;display:block}
+.dashboard-item .recipe-actions{flex-shrink:0}
+@media(max-width:700px){.dashboard-item{display:block}.dashboard-item .recipe-actions{margin-top:16px}.flow-actions .primary,.flow-actions .outline{width:100%}}
+
+/* SmartBrew AI brand: compact transparent brewing symbol in the left navigation. */
+.brand { gap: 9px; margin-left: 2px; margin-right: 2px; }
+.brand-mark { width: 51px; height: 55px; flex: 0 0 51px; background: #f6f1e9; border-radius: 12px; display:flex; align-items:center; justify-content:center; overflow:hidden; }
+.brand-mark img { width:44px; height:50px; object-fit:contain; display:block; }
+.brand strong { font-size: 19px; letter-spacing:-0.8px; white-space: nowrap; }
+.brand small { font-size: 7px; letter-spacing: 1px; white-space: nowrap; }
+@media(max-width:1150px){.brand {gap:6px; margin-left:0; margin-right:0}.brand-mark{width:42px; height:48px; flex-basis:42px}.brand-mark img{width:37px;height:43px}.brand strong{font-size:17px}.brand small{font-size:6px;letter-spacing:.4px}}
+
+
+/* Shared SmartBrew identity: the same transparent brewing symbol in every old emblem position. */
+.cup-brand-symbol {display:block;width:65px;height:74px;max-width:75%;object-fit:contain;filter:drop-shadow(0 1px 0 rgba(255,255,255,.2));}
+.receipt-heading .receipt-mark {display:block;width:64px;height:73px;flex:0 0 64px;object-fit:contain;object-position:center;}
+@media(max-width:700px){.receipt-heading .receipt-mark{width:50px;height:58px;flex-basis:50px}}
+
+
+/* Hero: standalone transparent brand image, no disc, cup, frame or backing. */
+.hero-emblem{position:absolute;right:8%;top:50%;transform:translateY(-50%);width:270px;height:260px;z-index:1;display:grid;place-items:center;pointer-events:none;background:transparent;border:0;box-shadow:none}
+.hero-brewing-logo{width:216px;height:246px;max-width:100%;max-height:100%;object-fit:contain;display:block;background:transparent;filter:drop-shadow(0 3px 5px rgba(255,255,255,.15))}
+@media(max-width:1150px){.hero-emblem{right:2%;width:210px;height:220px}.hero-brewing-logo{width:180px;height:210px}.hero-copy{max-width:60%}}
+@media(max-width:700px){.hero{min-height:330px}.hero-copy{max-width:100%;padding-right:0}.hero-copy>p:last-of-type{max-width:245px}.hero-emblem{right:-13px;top:42%;width:146px;height:170px;opacity:.30}.hero-brewing-logo{width:140px;height:161px}.hero h1{position:relative;z-index:2}}
+/* Personal recommendation copy: short headline, welcoming story and transparent reasons. */
+.recommendation{display:flex;flex-direction:column;gap:0;min-height:295px;background:linear-gradient(158deg,#fff,#fafbf8);box-shadow:0 8px 25px rgba(35,68,43,.04)}
+.recommendation .rec-headline{font-family:'Playfair Display',Georgia,serif;font-size:17px;color:#31573e;line-height:1.35;margin:6px 0 10px;font-weight:500}
+.recommendation .rec-story{font-size:12.5px;color:#586a5d;line-height:1.83;margin:0 0 13px}
+.recommendation .rec-factors{display:flex;flex-wrap:wrap;gap:7px;margin:2px 0 20px}
+.recommendation .rec-factor{border:1px solid #e0eadc;background:#f2f6ef;color:#496550;border-radius:100px;padding:6px 9px;font-size:10px;line-height:1.3}
+.recommendation .recommendation-order{margin-top:auto;align-self:flex-start}
+.recommendation h3{margin:12px 0 2px}
+
+/* Brand refresh: logo-only transparent pour-over mark; no second cup in the hero. */
+.brand-mark img{height:44px;width:44px;object-fit:contain}
+.hero-emblem{width:275px;height:260px;right:7%}
+.hero-brewing-logo{width:246px;height:227px;max-width:100%;max-height:100%;object-fit:contain;filter:drop-shadow(0 8px 14px rgba(8,26,18,.14))}
+.receipt-mark{width:64px;height:60px;object-fit:contain}
+@media(max-width:1150px){.hero-emblem{right:3%;width:205px;height:211px}.hero-brewing-logo{width:190px;height:185px}}
+@media(max-width:700px){.hero-emblem{right:-20px;top:45%;width:145px;height:154px;opacity:.27}.hero-brewing-logo{width:135px;height:135px}}
+
+/* Checkout R04: visible, clearly simulated payment fields and true QR receipt. */
+.payment-details{margin:19px 0 17px;padding:20px 23px;border:1px solid #ccdccc;border-radius:14px;background:#f7faf6}
+.payment-details h4{font-family:Georgia,serif;font-size:19px;color:#244e38;margin:0 0 7px;font-weight:500}
+.payment-details .fineprint{margin:0 0 15px;line-height:1.6}
+.payment-fields{margin-bottom:13px}
+.payment-fields[hidden],.receipt-link[hidden],#qr-choice-note[hidden]{display:none!important}
+.payment-check{display:flex;gap:10px;align-items:center;align-self:center;min-height:50px}
+.payment-check input{width:18px;height:18px;accent-color:#24583e;flex-shrink:0}
+.payment-warning{font-size:11px;color:#526856;line-height:1.7;margin:12px 0 0}
+#qr-choice-note{margin:13px 0;color:#42684f;border-left:3px solid #93b59a;padding:10px 13px;background:#f3f8f3}
+.qr-receipt{text-align:center;padding:18px;margin:17px 0;border:1px solid #d7e6d7;background:#fff;border-radius:12px}
+.qr-receipt-title{font-size:11px;font-weight:700;letter-spacing:.11em;color:#2b5038;margin-bottom:13px}
+.qr-receipt img{width:220px;height:220px;max-width:100%;display:block;margin:0 auto;image-rendering:auto;border:8px solid white}
+.qr-receipt p{font-size:11px;color:#617766;line-height:1.65;max-width:300px;margin:11px auto 0}
+@media(max-width:700px){.payment-details{padding:15px}.qr-receipt img{width:195px;height:195px}}
+
+
+/* Customer name in top-right header: account menu accessible via pointer and keyboard. */
+.account-nav{position:relative;display:flex;align-items:center}
+.identity-button{font:inherit;font-size:12px;font-weight:650;line-height:1.2;color:#2a513a;background:#fff;border:1px solid #dce7d8;padding:10px 13px;border-radius:9px;cursor:pointer;display:flex;align-items:center;gap:10px;max-width:230px;transition:background .15s,border-color .15s}
+.identity-button:hover,.identity-button[aria-expanded="true"]{background:#edf5eb;border-color:#93b796}
+.identity-button:focus-visible,.account-menu button:focus-visible{outline:3px solid #7b9a70;outline-offset:3px}
+.account-menu{position:absolute;top:calc(100% + 10px);right:0;width:min(270px,calc(100vw - 30px));padding:8px;background:white;border:1px solid #dce8da;border-radius:13px;box-shadow:0 15px 36px rgba(17,47,25,.14);z-index:50}
+.account-menu-heading{font-size:10px;letter-spacing:1.5px;font-weight:800;color:#91a398;margin:12px 11px 7px}
+.account-menu button{display:block;width:100%;text-align:left;background:transparent;border:none;border-radius:7px;padding:12px;color:#305440;font-size:12px;cursor:pointer;font-weight:600}
+.account-menu button:hover{background:#f0f6ee}
+.account-menu .account-menu-logout{color:#a04c3a;border-top:1px solid #eef1ed;border-radius:0;margin-top:5px;padding-top:15px}
+@media(max-width:700px){.identity-button{font-size:10px;padding:9px;max-width:138px;overflow:hidden;text-overflow:ellipsis}.account-menu{right:0}}
+
+/* Account navigation icon: profile silhouette instead of unrelated chess pawn. */
+.nav-profile-icon{display:block;flex:0 0 20px;width:20px;height:20px;vertical-align:middle;stroke:currentColor}
